@@ -5179,8 +5179,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px
+    border: 2px outset;
+    border-radius: 5px
 }
 
 .navbar-toggle:focus {
@@ -5192,7 +5192,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    background-color: black;
+    background-color:beige;;
 }
 
 .navbar-toggle .icon-bar+.icon-bar {
