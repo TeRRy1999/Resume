@@ -5075,7 +5075,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-fixed-top .navbar-collapse,
     .navbar-static-top .navbar-collapse {
         padding-right: 0;
-        padding-left: 0
+        padding-left: 0;
     }
 }
 
