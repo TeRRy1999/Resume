@@ -29,71 +29,86 @@ video {
     z-index: -100;
     /*拉到最上層*/
     transform: translateX(-50%) translateY(-50%);
-    background-size:cover;
+    background-size: cover;
 }
 
 nav {
     color: azure border-radius: 0;
 }
 
-
-
 .collapse.in {
     opacity: 0.8;
 }
 
-
-.T_C{
-    font-size: 1.6rem;
-    padding: 10px;
-    margin-top: 25px;
-    color:cornsilk;
-    background: rgba(0,0,0,0.3);
-    border-radius: 10px;
-}
-
-
 h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
 }
 
-p>span:last-child{
-    color:yellow;
+p>span:last-child {
+    color: yellow;
 }
 
-
-img{
+img {
     border-radius: 40px;
     padding: 15px;
 }
 
-img:hover{
+img:hover {
     opacity: 0.5;
 }
 
-.F_I{
+.F_I {
     padding-top: 10px;
-   
 }
 
-.data{
-     font-size: 1.6rem;
+.fram {
+    font-size: 1.6rem;
     padding: 10px;
     margin-top: 25px;
-    color:cornsilk;
-    background: rgba(0,0,0,0.3);
+    color: cornsilk;
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
-.input_fix{
+.input_fix {
     padding-bottom: 10px;
     color: black;
 }
 
-.form{
-    border-radius: px;
+.wr{
+    
+    transition: all 0.9s linear;    
 }
 
+div>h1:hover {
+    color: aqua;
+    text-align: center;
+     transition: all .8s linear;
+}
+
+.hovereffect {
+   
+    float:left;
+    overflow:hidden;
+    position:relative;
+     border-radius: 50px;
+}
+
+.hovereffect img {
+    transition: all .4s linear;
+    
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+}
+
+.hovereffect:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+     border-radius: 50px;
+}
